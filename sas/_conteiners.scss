@@ -1,0 +1,109 @@
+.conteiner-publicidad2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding: 30px;
+}
+.publicidad1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.conteiner-products {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 2%;
+    padding: 30px;
+    width: 100%;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.boxes-card {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-card {
+    padding-bottom: 15px;
+}
+
+.conteiner-titulos {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: linear-gradient(to top, #ca8ff8, #c47cfa, #bd67fc, #b651fe, #af34ff);
+    height: 80px;
+    font-size: 20rem;
+    .tittle-box {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        .titulares {
+            display: flex;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+        }
+    }
+}
+
+.marcas-destacadas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    background-image: linear-gradient(to top, #ca8ff8, #c47cfa, #bd67fc, #b651fe, #af34ff);
+
+}
+
+.ver-marcas {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.conteiner-marcas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+}
+.padre-marcas {
+    background-color: black;
+    color: violet;
+}
+
+.publicidad {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 2%;
+    padding: 10px 10px 40px;
+    width: 100%;
+}
+.publicidad1 {
+    padding-right: 20px;
+}
+.conteiner-publicidad {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}

@@ -1,0 +1,106 @@
+/*********************************************************************************************/
+/* FOOTER DESKTOP ****************************************************************************/
+/*********************************************************************************************/
+/* ESCRITORIO ********************************************************************************/
+.footer-conteiner {
+    background-color: black;
+    height: 250px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+.conteiner-boxes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 2%;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.footer-tit {
+    color: white;
+}
+
+
+.conteiner-logo-foot {
+   display: flex;
+   align-items: center;
+   align-content: center;
+   width: 25%;
+   margin-right: 40px;
+}
+
+.logo-imagen-foot {
+    display: flex;
+}
+
+.conteiner-nosotros{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5%;
+}
+
+.box-us {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
+
+.conteiner-info {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5%;
+}
+.box-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
+.conteiner-categorias {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5%;
+}
+.box-cat {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
+.conteiner-clientes {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5%;
+}
+.box-client {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 140px;
+}
+.conteiner-redes {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    gap: 5%;
+}
+.box-redes {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 140px;
+}
