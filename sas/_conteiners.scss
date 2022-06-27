@@ -13,6 +13,9 @@
     align-items: center;
     align-content: center;
 }
+.conteiner-publi2 {
+    
+}
 
 .conteiner-products {
     display: flex;
@@ -106,4 +109,27 @@
     justify-content: space-between;
     align-items: center;
     align-content: center;
+}
+
+.conteiner-sucursales {
+    display: flex;
+    
+    
+}
+.boxes-sucursales {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.box-sucu1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.box-suctext {
+    display: flex;
+}
+.box-sucmap {
+    display: flex;
 }

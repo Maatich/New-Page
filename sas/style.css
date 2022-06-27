@@ -604,6 +604,45 @@
       align-content: center;
 }
 
+.conteiner-sucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.boxes-sucursales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.box-sucu1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.box-suctext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box-sucmap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 /*********************************************************************************************/
 /* FOOTER DESKTOP ****************************************************************************/
 /*********************************************************************************************/
