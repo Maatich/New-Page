@@ -113,23 +113,106 @@
 
 .conteiner-sucursales {
     display: flex;
-    
-    
 }
 .boxes-sucursales {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
 }
+.sucursal-sancristobal {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: black;
+}
+.box-sucimg {
+    display: flex;
+    gap: 2%;
+}
 
 .box-sucu1 {
+    padding: 20px;
+    width: 100%;
     display: flex;
     align-items: center;
     align-content: center;
+    justify-content: space-evenly;
+
 }
 .box-suctext {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     display: flex;
+    .suctext-body{
+
+    }
 }
 .box-sucmap {
     display: flex;
 }
+
+.sucursal-palermo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid yellowgreen;
+    border-radius: yellowgreen;
+}
+.sucursal-almagro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid yellowgreen;
+    border-radius: yellowgreen;
+}
+
+.conteiner-servicios {
+    display: flex;
+}
+.boxes-servicios {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+.titular {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.box-alimento {
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    gap: 2%;
+    
+}
+.box-imgserv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.img-center {}
+
+.box-alimento {
+    width: 35%;
+}
+.box-medicamentos {
+    width: 35%;
+}
+.box-veterinaria {
+    width: 35%;
+}
+.box-baño {
+    width: 35%;
+}
+
+
